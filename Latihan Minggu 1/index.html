@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"content=""width=device-width,initial-scales="1.0"/>
+        <title>LATIHAN WEB BTNG</title>
+    </head>
+    <body>
+        <!-- HEADING -->
+        <h1>Heading 1</h1>
+        <H2>Heading 2</H2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <H5>Heading 5</H5>
+        <h6>Heading 6</h6>
+
+        <!-- PARAGRAF -->
+        <P><b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit.
+            <br/> 
+            <!-- Tag <br/> digunakan untuk mengganti garis -->
+             delectus aliquid amet sequi eius cumque, laboriosam natus ex voluptatum quas vitae eum eveniet fugit voluptatem tempora! Maiores sed quia accusamus.
+        </P>
+
+
+        <!-- Italic, Bold dan Underline -->
+        <i>Ini adalah italic</i><br/>
+        <b>Ini adalah Bold</b><br/>
+        <u>Ini adalah underline</u>
+
+        <!--oderet list-->
+        <ol type="a">
+            <li>content 1</li>
+            <li>content 2</li>
+            <li>content 3</li>
+        </ol>
+
+        <!--Unordered list-->
+        <ul type="square">
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ul>
+
+        <!--Descripition list-->
+        <ol>
+            <dt> judul</dt>
+            <dp> judul</dp>
+        </ol>
+
+        <!--hyper link-->
+        <a href="https://www.youtube.com/playlist?list=PLaoW0C-iGdrcdWMgAxEqBbR0qF-sYqBmh">
+            Link Youtube</a><br>
+        <a href="https://youtu.be/ar_Dtjzoip0?si=xl5R6TXqG0ANac8d" target="_blank">
+            Link youtube new tab
+        </a><br>
+        <!-- Target="_blank" fungsinya agar kelika kita mengklik link maka akan terbuka di new tab -->
+
+        <!-- Relative URL digunakan apabila file masih satu folder dg web yang kita buat-->
+        <a href="Page1.html" target="_blank">
+            Halaman Page baru</a>
+        </a><br>
+
+        <!-- Menambahkan Image -->
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.uhdpaper.com%2F2022%2F03%2Fjungkook-bts-proof-concept-4k-2771h.html&psig=AOvVaw0caQ1wSvA693U8llrmsF8P&ust=1696330365957000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCdhZmZ14EDFQAAAAAdAAAAABAK" alt="Foto Jungkook dari Google"><br>
+
+        <!-- Upload foto dari folder pribadi (Internal Source) -->
+        <img src="Asset/foto jk1.jpeg" alt="Foto Jk" title="Foto Jk">
+        <br>
+
+        <!-- TABEL -->
+        <table border="1px solid black"; cellpadding="10px">
+        <!-- boorder= untuk memberikan garis tepi kolom, cellpadding untuk mengatur jarak tepi sel dg isi sel -->
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kota</th>
+            </tr>
+            <tr>
+                <td>Johana Oktavia Ramadhani</td>
+                <td>18</td>
+                <td>Pati</td>
+            </tr>
+            <tr>
+                <td>Joice Ananta Bactiar</td>
+                <td>20</td>
+                <td>Kudus</td>
+              </tr>
+        </table>
+
+        <!-- FORM -->
+        <form style="margin-top:50px;">
+            <!-- Input tipe text -->
+            <label for="Nama">Nama Lengkap:</label>
+            <input type="text" id="Nama" name="Nama"><br>
+            <!-- Input tipe tanggal -->
+            <label for="Tgl">Tanggal Lahir:</label>
+            <input type="date" id="Tgl" name="Tgl"><br><br>
+
+            <!-- BUtton submit -->
+            <input type="submit" value="Submit">
+          </form> 
+    </body>
+</html>
